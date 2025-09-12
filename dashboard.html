@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/dashboard.css">
+</head>
+<body>
+ <nav class="navbar">
+  <div class="nav-left">
+    <h2>Dashboard</h2>
+  </div>
+
+  <!-- Hamburger -->
+  <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+
+  <ul class="nav-links">
+    <li><a href="#profile"><i class="fas fa-user"></i> Profile</a></li>
+    <li><a href="#course"><i class="fas fa-book"></i> Courses</a></li>
+    <li><a href="#announce"><i class="fas fa-bullhorn"></i> Announcements</a></li>
+  </ul>
+
+  <button class="logout">Logout</button>
+</nav>
+
+
+  <main class="main-content">
+    <div id="profile" class="welcome-section">
+      <h2>Welcome Back!</h2>
+      <p>Check your courses and announcements below.</p>
+    </div>
+
+    <section class="card profile-card">
+      <div class="profile-header">
+        <i class="fas fa-user-circle avatar"></i>
+        <h3 id="profileName">Student Name</h3>
+        <p id="profileEmail">email@example.com</p>
+      </div>
+    </section>
+
+    <!-- Courses Section --> 
+     <div id="course" class="courses-section"> 
+      <h3>Courses</h3> <div class="courses-cards"> 
+        <div class="card course-card"> 
+          <h4>HTML & CSS Basics</h4> 
+          <p>Learn the fundamentals of HTML and CSS to create beautiful web pages.</p> 
+        </div> 
+        <div class="card course-card"> 
+          <h4>JavaScript Essentials</h4> 
+          <p>Master the basics of JS, DOM manipulation, and interactive web design.</p> 
+        </div> 
+        <div class="card course-card"> 
+          <h4>Responsive Design</h4> 
+          <p>Build websites that adapt seamlessly to all device sizes.</p> 
+        </div> 
+        <div class="card course-card"> 
+          <h4>React.js Fundamentals</h4> 
+          <p>Create dynamic web apps using components and state management.</p> 
+        </div> 
+        <div class="card course-card"> 
+          <h4>Node.js Basics</h4> 
+          <p>Learn server-side JavaScript and build backend APIs.</p>
+        </div> 
+        <div class="card course-card"> 
+          <h4>Version Control with Git</h4> 
+          <p>Understand Git and GitHub for effective code collaboration.</p> 
+        </div> 
+      </div> 
+    </div>
+
+
+    <div id="announce" class="announcements-section">
+      <h3>Announcements</h3>
+      <ul>
+        <li>📢 New React.js course starts Monday.</li>
+        <li>📢 Maintenance on 15th Sept, 12–2 AM.</li>
+        <li>📢 Midterm schedule coming soon.</li>
+      </ul>
+    </div>
+  </main>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
