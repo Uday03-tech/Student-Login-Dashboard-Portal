@@ -10,7 +10,7 @@ This project demonstrates the use of frontend and backend integration for authen
 
 
 # Tech Stack:
-- Frontend: HTML, CSS, JavaScript, React, Bootstrap
+- Frontend: HTML, CSS, Bootstrap, JavaScript,
 - Tools & Others: Git, GitHub, VS Code
 
 
