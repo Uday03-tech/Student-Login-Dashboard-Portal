@@ -5,7 +5,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
-  background: #0d0d1a; /* same dark theme as login */
+  background: #0d0d1a; 
   color: #fff;
   min-height: 100vh;
 }
